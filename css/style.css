@@ -30,6 +30,7 @@ section {
   padding-bottom: 2rem;
   text-transform: capitalize;
   position: relative;
+  
 }
 .section-heading::before {
   content: "";
@@ -512,7 +513,7 @@ button.custom-btn a {
 }
 .contact textarea {
   margin: 2.5rem 0 0 0;
-  height: 7rem;
+  min-height: 7rem;
 }
 .contact input:focus,
 .contact textarea:focus {
