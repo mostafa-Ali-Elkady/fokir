@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fokir</title>
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="css/fonts.css">
+  <!-- Light Gallery -->
+  <link rel="stylesheet" href="css/lightgallery.css">
+  <!-- Nomalize Elements -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <!-- styling page -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- media query responsive -->
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <!-- Start header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="brand-name left"><a href="#
+            ">fokir</a></div>
+        <div class="nav-links right">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testemonials">Testemonials</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="icon-menu " onclick="showMenu()"></i>
+          <i class="icon-close " onclick="hideMenu()"></i>
+
+        </div>
+        <div class="clr"></div>
+      </nav>
+      <div class="header-content">
+        <h3>Hello i'm</h3>
+        <h1>ALEX SMITH</h1>
+        <h4>Professional Web Designer</h>
+      </div>
+      <div class="header-overlay"></div>
+  </header>
+  <!-- End header -->
+  <!-- Start About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-img-box left w-50">
+        <div class="inner">
+          <div class="about-img">
+            <img src="images/about-img.jpg" alt="about-img">
+            <div class="about-overlay">
+              <div class="social-links">
+                <ul>
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-github"></i></a></li>
+                  <li><a href="#"><i class="icon-google-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-info left w-50">
+        <h2>Hello<span>,</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+          id est laborum.</p>
+        <table>
+          <tr>
+            <td class="info"><span>Name: </span>Rdam smith</td>
+            <td class="info"><span>job title: </span>UI/UX Designer</td>
+          </tr>
+          <tr>
+            <td class="info"><span>age: </span>26 Year></td>
+            <td class="info"><span>location: </span> United States, US</td>
+          </tr>
+          <tr>
+            <td class="info"><span>freelance: </span> Available</td>
+            <td class="info"><span>email: </span>example@gmail.com</td>
+          </tr>
+        </table>
+        <div class="about-buttons">
+          <button class="custom-btn"><a href="">download cv <i class="icon-download"></i></a></button>
+          <button class="custom-btn"><a href="">hire me <i class="icon-paper-plane"></i></a></button>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </section>
+  <!-- End About -->
+  <!-- Start Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-heading"> our Services</h2>
+      <div class="services-boxes">
+        <div class="service-box left w-25">
+          <div class="box-content">
+            <i class="icon-edit"></i>
+            <h3>UI/UX DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus</p>
+          </div>
+        </div>
+        <div class="service-box left w-25">
+          <div class="box-content">
+            <i class="icon-code"></i>
+            <h3>APP DEVELOPMENT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus</p>
+          </div>
+        </div>
+        <div class="service-box left w-25">
+          <div class="box-content">
+            <i class="icon-web"></i>
+            <h3>PRODUCT DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus</p>
+          </div>
+        </div>
+        <div class="service-box left w-25">
+          <div class="box-content">
+            <i class="icon-cog"></i>
+            <h3>UI/UX DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus</p>
+          </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Services -->
+  <!-- Start Portfolio -->
+  <section class="portfolio text-center" id="portfolio">
+    <div class="container">
+      <h2 class="section-heading"> our portfolio</h2>
+      <ul class="control-btns">
+        <li class="list-group-item active" data-filter="all">all</li>
+        <li class="list-group-item " data-filter="graphic">graphic</li>
+        <li class="list-group-item " data-filter="web-design">web design</li>
+        <li class="list-group-item " data-filter="branding">branding</li>
+      </ul>
+      <div class="portfolio-imgs filterd-images"  id="lightgallery">
+        <div class="portfolio-img left w-33  all graphic">
+          <div class="inner-content">
+            <a href="images/1.jpg"><img src="images/1.jpg" alt="pic1"></a>
+            <div class="img-overlay"></div>
+          </div>
+        </div>
+        <div class="portfolio-img left w-33  all graphic">
+          <div class="inner-content">
+            <img src="images/2.jpg" alt="pic2">
+            <div class="img-overlay"></div>
+          </div>
+        </div>
+        <div class="portfolio-img left w-33  all web-design">
+          <div class="inner-content">
+            <img src="images/3.jpg" alt="pic3">
+            <div class="img-overlay"></div>
+          </div>
+        </div>
+        <div class="portfolio-img left w-33  all web-design ">
+          <div class="inner-content">
+            <img src="images/4.jpg" alt="pic4">
+            <div class="img-overlay"></div>
+          </div>
+        </div>
+        <div class="portfolio-img left w-33 all branding">
+          <div class="inner-content">
+            <img src="images/5.jpg" alt="pic5">
+            <div class="img-overlay"></div>
+          </div>
+        </div>
+        <div class="portfolio-img left w-33  all branding">
+          <div class="inner-content">
+            <img src="images/6.jpg" alt="pic6">
+            <div class="img-overlay"></div>
+          </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio -->
+  <!-- Start counter section -->
+  <section class="number text-center counter-section ">
+    <div class="container">
+      <div class="counter-container">
+        <div class="number-content  left w-25 counter" >
+          <i class="icon-users"></i>
+          <h3 class="count-num"  data-count="70">70</h3>
+          <p>Team members</p>
+  
+        </div>
+        <div class="number-content  left w-25 counter" >
+          <i class="icon-files-o"></i>
+          <h3  class="count-num" data-count="1000">1000</h3>
+          <p>Complete Projects</p>
+  
+        </div>
+        <div class="number-content  left w-25 counter">
+          <i class="icon-download"></i>
+          <h3 class="count-num"  data-count="850">85</h3>
+          <p>Files Downloaded </p>
+        </div>
+        <div 
+        class="number-content left w-25 counter" >
+          <i class="icon-coffee"></i>
+          <h3  class="count-num" data-count="300">300</h3>
+          <p>Lines Of Code</p>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </section>
+  <!-- End counter section -->
+  <!-- Start Feddback Section -->
+  <section class="feedback text-center">
+    <div class="container">
+      <h2 class="section-heading">Client's Feedback</h2>
+      <div class="owl-carousel owl-theme">
+        <!-- user One -->
+        <div class="card-content item">
+          <div class="img-client">
+            <img src="images/client1.jpg" alt="client1">
+          </div>
+          <div class="user-info">
+            <h3>Alex ander</h3>
+            <i class="icon-location_on"></i>
+            <a href="#">United</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt,
+              architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit..</p>
+            <div class="list-icon-stars">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star_half"></i>
+            </div>
+          </div>
+        </div>
+        <!-- user two -->
+        <div class="card-content item">
+          <div class="img-client">
+            <img src="images/client2.jpg" alt="client2">
+          </div>
+          <div class="user-info">
+            <h3>Alex ander</h3>
+            <i class="icon-location_on"></i>
+            <a href="#">United</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt,
+              architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit..</p>
+            <div class="list-icon-stars">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star_half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Feddback Section -->
+  <!-- Start blogs Section -->
+  <section class="blogs text-center" id="blog">
+    <div class="container">
+      <h2 class="section-heading">Our Blog</h2>
+      <div class="blog-cards">
+        <!-- card one -->
+        <div class="blog-card left w-33">
+          <a href="#" class="img-link"><img src="images/blog-pic1.jpg" alt="blog-pic1"></a>
+          <div class="inner-box ">
+            <p>23 November, 2015</p>
+            <h3><a href="#">Web Design Blog Post</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius
+              incidunt repellat molestiae.</p>
+            <div class="read-link">
+              <a href="#">Read more</a>
+              <i class="icon-arrow-thin-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- card two -->
+        <div class="blog-card left w-33">
+          <div class="video-container">
+            <iframe width="100%" src="https://www.youtube.com/embed/R9g6UPVNa-o" frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+          <div class="inner-box ">
+            <p>20 April, 2018</p>
+            <h3><a href="#">Development Blog Post</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius
+              incidunt repellat molestiae.</p>
+            <div class="read-link">
+              <a href="#">Read more</a>
+              <i class="icon-arrow-thin-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- card three -->
+        <div class="blog-card left w-33">
+          <a href="#" class="img-link"> <img src="images/blog-pic2.jpg" alt="blog-pic2"></a>
+          <div class="inner-box ">
+            <p>17 May, 2017</p>
+            <h3><a href="#">Full Width Blog Post</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius
+              incidunt repellat molestiae.</p>
+            <div class="read-link">
+              <a href="#">Read more</a>
+              <i class="icon-arrow-thin-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </section>
+  <!-- End blogs Section -->
+  <!-- Start Contact Section -->
+  <section class="contact text-center" id="contact">
+    <div class="container">
+      <h2 class="section-heading">Contact Us</h2>
+      <form action="">
+        <div class="inputs">
+          <input type="text" name="name" class="name-input  " id="name" required autocomplete="off"
+            placeholder="Name" />
+          <input type="email" name="email" class="email-input " id="email" required autocomplete="off"
+            placeholder="Email" />
+        </div>
+        <input type="text" name="subject" class="subject-input  id=" subject" required autocomplete="off"
+          placeholder="Subject" />
+        <textarea name="text-area" class="text-area" id="text-area" placeholder="Message for me"></textarea>
+
+        <button class="custom-btn"><a href="#">Send message </a></button>
+      </form>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  <!-- Start footer -->
+  <footer class="footer text-center">
+
+    <ul class="social-links">
+      <li><a href="#"><i class="icon-facebook"></i></a></li>
+      <li><a href="#"><i class="icon-twitter"></i></a></li>
+      <li><a href="#"><i class="icon-github"></i></a></li>
+      <li><a href="#"><i class="icon-google-plus"></i></a></li>
+    </ul>
+    <p>Copy Right 2018 © By <span><a href="#">Theme-fair</a></span> All Rights Reserved</p>
+  </footer>
+  <!-- End footer -->
+  <!-- Scroll Top Button -->
+  <div class="container">
+    <button class="scroll-top-btn"><i class="icon-arrow-thin-up"></i></button>
+  </div>
+  <!-- Color List -->
+  <div class="container">
+    <div class="colors-bullets">
+      <ul class="colors-list">
+        <li class="active" data-color="#717cff"></li>
+        <li data-color="#ff305b"></li>
+        <li data-color="#009688"></li>
+        <li data-color="#03A9F4"></li>
+        <li data-color="#4CAF50"></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Js Files -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/lightgallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+  header .header-content h3,
+  header .header-content h4 {
+    font-size: 1rem;
+  }
+  header .header-content h1 {
+    font-size: 2rem;
+  }
+
+  .navbar .nav-links ul {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    top: -50px;
+  }
+  .navbar .nav-links i.icon-menu,
+  .icon-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    font-size: 1.5rem;
+  }
+
+  .w-50,
+  .w-33,
+  .w-25 {
+    width: 100%;
+  }
+  .left,
+  .right {
+    float: none;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 80%;
+  }
+
+  .inner {
+    box-shadow: none;
+    width: 80%;
+  }
+  .about .about-img {
+    transform: translate(0, 0);
+  }
+  .services .box-content {
+    width: 70%;
+    margin-inline: auto;
+  }
+  .contact .inputs {
+    flex-direction: column;
+  }
+  .contact input.name-input,
+  .contact input.email-input {
+    width: 100%;
+  }
+
+  .portfolio .portfolio-img {
+    width: 90%;
+    margin-inline: auto;
+  }
+  .feedback .card-content {
+    flex-direction: column;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .w-33 {
+    width: 50%;
+  }
+  .w-25 {
+    width: 50%;
+  }
+  iframe {
+    min-height: 190px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  iframe {
+    height: 220px;
+  }
+}
