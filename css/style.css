@@ -488,6 +488,7 @@ button.custom-btn a {
 }
 .video-container {
   width: 100%;
+  aspect-ratio: 16/9;
 }
 /* End Blogs */
 /* Start Contact */
